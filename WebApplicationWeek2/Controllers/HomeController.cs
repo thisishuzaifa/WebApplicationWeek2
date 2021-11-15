@@ -30,6 +30,11 @@ namespace WebApplicationWeek2.Controllers
             return View();
         }
 
+        [Authorize]
+        public IActionResult CalebPage()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
